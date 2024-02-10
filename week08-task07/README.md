@@ -47,7 +47,7 @@ Kada dobijete approval na pull request neophodo je da terminirate / ocistite res
 
 ### DNS record Load Balancera
 ![6](https://user-images.githubusercontent.com/65655945/233834271-746522bc-d647-4c94-84e7-4e2af3ee0b61.png)
-alb-web-servers-1618028797.eu-central-1.elb.amazonaws.com
+[alb-web-servers-1618028797.eu-central-1.elb.amazonaws.com](alb-web-servers-1618028797.eu-central-1.elb.amazonaws.com)
 
 ### Dijagram infrastrukture
 ![drawio](https://user-images.githubusercontent.com/65655945/233834284-e27feb48-ddf5-434c-8e54-f82cc5c139ce.jpg)
