@@ -1,0 +1,30 @@
+{
+    "builders": [
+        {
+            "type": "amazon-ebs",
+            "region": "eu-central-1",
+            "profile": "adin",
+            "source_ami": "ami-0a23a9827c6dab833",
+            "instance_type": "t2.micro",
+            "ssh_username": "ec2-user",
+            "temporary_key_pair_type": "ed25519",
+            "ami_name": "packer-task12-{{timestamp}}",
+            "tags": {
+                "Name": "task-12-web-server-cf",
+                "CreatedBy": "adin.pilavdzija",
+                "Project": "task-12",
+                "IaC": "Packer"
+            }
+        }
+    ],
+    "provisioners": [
+        {
+            "type": "shell",
+            "script": "./packer_install_nginx.sh"
+        },
+        {
+            "type": "shell",
+            "script": "./packer_install_mysql.sh"
+        }
+    ]
+}
