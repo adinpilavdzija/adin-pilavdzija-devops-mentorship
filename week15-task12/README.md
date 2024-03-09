@@ -70,8 +70,8 @@ aws-cli/2.15.25 Python/3.11.8 Linux/6.5.0-1014-aws exe/x86_64.ubuntu.22 prompt/o
 Configure the profile:
 ```bash
 $ aws configure --profile adin
-AWS Access Key ID [None]: AKIAWXLK35W7G2JSVZCV
-AWS Secret Access Key [None]: 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
+AWS Access Key ID [None]: ###
+AWS Secret Access Key [None]: ###
 Default region name [None]: eu-central-1
 Default output format [None]: json
 ```
