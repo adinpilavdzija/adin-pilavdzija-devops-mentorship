@@ -62,19 +62,18 @@ Week 28: Elastic Kubernetes Service (EKS)
 
 ## Taskovi
 
-🔴
-- []() - Kreiranje GitHub repozitorija za potrebe mentorship programa. Dodavanje `.gitignore` i `README.md` fajlova. Kreiranje brancheva `development` i `main` uz zabranu direktnih commitova na `main`.
-- []() - Izrada 10 taskova Bandit levela na `Wargames labs` uz koritenje Linux komandi.
-- []() - Čitanje poglavlja 13, 14, 15 i 16 knjige `Linux Command Line and Shell Scripting Bible, 3rd Edition` uz `ssh` na remote server, kreiranje vlastitog direktorija i testiranje bash skripti iz navedenih poglavlja knjige.
-- []() - Čitanje materijala vezanih za `računarske mreže` sa naglaskom na OSI model, protokole, IP adresiranje, klijent-server arhitekturu, DNS, subnetiranje i sl.
-- []() - Kreiranje `AWS Account`-a, postavljanje `MFA`, `alias`, kreiranje `IAM Usera` i `IAM Group`-e...
-- []() - Kreiranje `CloudWatch billing alert`-a, kreiranje `EC2 instance` sa zadanim postavkama, deployment jednostavne `nodejs` aplikacije na EC2 instancu
-- []() - Kreiranje `AMI Image`-a, `Application Load Balancer`-a, `Auto Scaling Group`-e, `dijagram infrastrukture` na draw.io, simuliranje visoke dostupnosti aplikacije i CPU load-a, upravljanje `Security Group`-om
-- []() - Kreiranje `EC2` instance od `AMI Image-a`, kreiranje `DNS recorda`, kreiranje `Let's Encrypt SSL certifikata` za domenu i omogucavanje njegovog `autorenewal-a`, importovanje Lets Encrypt SSL certifikat unutar `AWS Certificate Managera`, kreiranje `Load Balancera`, kreiranje novog SSL certifikata unutar `ACM`-a
-- []() - Podesavanje statickog website-a pomocu AWS servisa `S3` i `Cloudfront`, koristenje SSL certifikata od `AWS Certificate Managera`, kreiranje record-a unutar `Route 53` kroz `AWS CLI`
-- []() - Ucenje, pravljenje zabiljeski i vjezbanje DEMO-a iz poglavlja `Serverless and Application Services` iz kursa Adriana Cantrill-a `AWS Certified Solutions Architect - Associate (SAA-C03)`. Neke od lekcija su: `AWS Lambda`, `CloudWatchEvents and Event Bridge`, `Serverless Architecture`, `SNS`, `SQS` itd.
-- []() - Izrada `AWS Tools GitFlow Workshop` unutar vlastitog AWS Account-a
-- []() - Koristenje `Packer ⇨ CloudFormation / Terraform ⇨ Ansible` alata i kreiranje paralelnih infrastruktura (jedne koristeci `CloudFormation` a druge koristeci `Terraform`) sa dvije EC2 instance kao Web (nginx) i Database (mysql) serverima
-- []() - Izvrsavanje Workshop lab-ova vezanih za `AWS CodeCommit`, `AWS CodeArtifact`, `AWS CodeBuild`, `AWS CodeDeploy` i `AWS CodePipeline`
+- [Task 1](./week01-task01/) - Kreiranje GitHub repozitorija za potrebe mentorship programa. Dodavanje `.gitignore` i `README.md` fajlova. Kreiranje brancheva `development` i `main` uz zabranu direktnih commitova na `main`.
+- [Task 2](./week02-task02/) - Izrada 10 taskova Bandit levela na `Wargames labs` uz koritenje Linux komandi.
+- [Task 3](./week03-task03/) - Čitanje poglavlja 13, 14, 15 i 16 knjige `Linux Command Line and Shell Scripting Bible, 3rd Edition` uz `ssh` na remote server, kreiranje vlastitog direktorija i testiranje bash skripti iz navedenih poglavlja knjige.
+- [Task 4](./week04-task04/) - Čitanje materijala vezanih za `računarske mreže` sa naglaskom na OSI model, protokole, IP adresiranje, klijent-server arhitekturu, DNS, subnetiranje i sl.
+- [Task 5](./week06-task05/) - Kreiranje `AWS Account`-a, postavljanje `MFA`, `alias`, kreiranje `IAM Usera` i `IAM Group`-e...
+- [Task 6](./week07-task06/) - Kreiranje `CloudWatch billing alert`-a, kreiranje `EC2 instance` sa zadanim postavkama, deployment jednostavne `nodejs` aplikacije na EC2 instancu
+- [Task 7](./week08-task07/) - Kreiranje `AMI Image`-a, `Application Load Balancer`-a, `Auto Scaling Group`-e, `dijagram infrastrukture` na draw.io, simuliranje visoke dostupnosti aplikacije i CPU load-a, upravljanje `Security Group`-om
+- [Task 8](./week09-task08/) - Kreiranje `EC2` instance od `AMI Image-a`, kreiranje `DNS recorda`, kreiranje `Let's Encrypt SSL certifikata` za domenu i omogucavanje njegovog `autorenewal-a`, importovanje Lets Encrypt SSL certifikat unutar `AWS Certificate Managera`, kreiranje `Load Balancera`, kreiranje novog SSL certifikata unutar `ACM`-a
+- [Task 9](./week10-task09/) - Podesavanje statickog website-a pomocu AWS servisa `S3` i `Cloudfront`, koristenje SSL certifikata od `AWS Certificate Managera`, kreiranje record-a unutar `Route 53` kroz `AWS CLI`
+- [Task 10](./week12-task10/) - Ucenje, pravljenje zabiljeski i vjezbanje DEMO-a iz poglavlja `Serverless and Application Services` iz kursa Adriana Cantrill-a `AWS Certified Solutions Architect - Associate (SAA-C03)`. Neke od lekcija su: `AWS Lambda`, `CloudWatchEvents and Event Bridge`, `Serverless Architecture`, `SNS`, `SQS` itd.
+- [Task 11](./week13-task11/) - Izrada `AWS Tools GitFlow Workshop` unutar vlastitog AWS Account-a
+- [Task 12](./week15-task12/) - Koristenje `Packer ⇨ CloudFormation / Terraform ⇨ Ansible` alata i kreiranje paralelnih infrastruktura (jedne koristeci `CloudFormation` a druge koristeci `Terraform`) sa dvije EC2 instance kao Web (nginx) i Database (mysql) serverima
+- [Task 13](./week17-task13/) - Izvrsavanje Workshop lab-ova vezanih za `AWS CodeCommit`, `AWS CodeArtifact`, `AWS CodeBuild`, `AWS CodeDeploy` i `AWS CodePipeline`
 
 ![dev_ops_awsbosnia](https://github.com/adinpilavdzija/adin-pilavdzija-devops-mentorship/assets/65655945/94a7dc05-a7b6-42b7-b3e3-45708ab4ac9c)
